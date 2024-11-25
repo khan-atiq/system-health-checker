@@ -20,7 +20,7 @@ bash git clone https://github.com/khan-atiq/system-health-checker.git
 
 Install dependencies:
 
-bash pip install -r requirements.txt
+```pip install -r requirements.txt ```
 Set up the .env file with your SMTP server configuration:
 
 env
