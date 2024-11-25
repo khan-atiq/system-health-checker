@@ -2,17 +2,12 @@
 # Menu-Driven Health Check
 This project is a Python-based script for performing system health checks, such as monitoring disk usage, running services, memory usage, and CPU usage. The tool also sends automated reports via email.
 
-## Table of Contents
-Project Setup
-Running the Script
-Rewriting Git History
-Contributing
-License
-Project Setup
-Prerequisites
+## Prerequisites
 Python 3.x
 Git
 SMTP Configuration (via .env file for email credentials)
+
+
 Steps to Setup
 Clone the repository:
 
