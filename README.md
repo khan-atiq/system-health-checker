@@ -18,7 +18,7 @@ Clone the repository:
 
 ```git clone https://github.com/khan-atiq/system-health-checker.git```
 
-# Install dependencies:
+## Install dependencies:
 
 ```pip install -r requirements.txt ```
 
@@ -30,13 +30,12 @@ SMTP_PORT=465
 SENDER_EMAIL=your-email@example.com
 PASSWORD=your-email-password
 RECEIVER_EMAIL=receiver-email@example.com
-Run the system health check script:
+## Run the system health check script:
 
 ```python sys_healthCheck.py```
 
 Running the Script
 After setting up the .env file, execute the script:
-
 
 The script will present you with a menu of options:
 
