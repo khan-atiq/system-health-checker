@@ -2,7 +2,7 @@
 # Menu-Driven Health Check
 This project is a Python-based script for performing system health checks, such as monitoring disk usage, running services, memory usage, and CPU usage. The tool also sends automated reports via email.
 
-Table of Contents
+## Table of Contents
 Project Setup
 Running the Script
 Rewriting Git History
@@ -18,13 +18,12 @@ Clone the repository:
 
 ```git clone https://github.com/khan-atiq/system-health-checker.git```
 
-Install dependencies:
+# Install dependencies:
 
 ```pip install -r requirements.txt ```
 
 Set up the .env file with your SMTP server configuration:
 
-env
 
 SMTP_SERVER=smtp.yourserver.com
 SMTP_PORT=465
@@ -34,6 +33,7 @@ RECEIVER_EMAIL=receiver-email@example.com
 Run the system health check script:
 
 ```python sys_healthCheck.py```
+
 Running the Script
 After setting up the .env file, execute the script:
 
