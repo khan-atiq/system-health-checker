@@ -24,12 +24,13 @@ Clone the repository:
 
 Set up the .env file with your SMTP server configuration:
 
-
+```
 SMTP_SERVER=smtp.yourserver.com
 SMTP_PORT=465
 SENDER_EMAIL=your-email@example.com
 PASSWORD=your-email-password
 RECEIVER_EMAIL=receiver-email@example.com
+```
 
 ## Run the system health check script:
 
