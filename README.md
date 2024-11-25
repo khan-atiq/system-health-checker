@@ -16,11 +16,12 @@ SMTP Configuration (via .env file for email credentials)
 Steps to Setup
 Clone the repository:
 
-bash git clone https://github.com/khan-atiq/system-health-checker.git
+```git clone https://github.com/khan-atiq/system-health-checker.git```
 
 Install dependencies:
 
 ```pip install -r requirements.txt ```
+
 Set up the .env file with your SMTP server configuration:
 
 env
@@ -32,7 +33,7 @@ PASSWORD=your-email-password
 RECEIVER_EMAIL=receiver-email@example.com
 Run the system health check script:
 
-bash python sys_healthCheck.py
+```python sys_healthCheck.py```
 Running the Script
 After setting up the .env file, execute the script:
 
