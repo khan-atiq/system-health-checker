@@ -30,6 +30,7 @@ SMTP_PORT=465
 SENDER_EMAIL=your-email@example.com
 PASSWORD=your-email-password
 RECEIVER_EMAIL=receiver-email@example.com
+
 ## Run the system health check script:
 
 ```python sys_healthCheck.py```
