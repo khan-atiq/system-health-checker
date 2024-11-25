@@ -3,10 +3,11 @@
 This project is a Python-based script for performing system health checks, such as monitoring disk usage, running services, memory usage, and CPU usage. The tool also sends automated reports via email.
 
 ## Prerequisites
+```
 Python 3.x
 Git
 SMTP Configuration (via .env file for email credentials)
-
+```
 
 Steps to Setup
 Clone the repository:
